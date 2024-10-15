@@ -1,0 +1,246 @@
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    position: relative;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    box-sizing: inherit;
+    -webkit-text-size-adjust: 100%;
+}
+
+* {
+    margin: 0;
+}
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+/* Header section styles */
+.main-header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 1px 0px rgb(229,233,242);
+    background-color: white;
+}
+
+.main-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+}
+
+.main-navigation .website-logo img {
+    width: 96px;
+    margin: 0;
+}
+
+.main-navigation_items {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-navigation_item {
+    margin-left: 35px;
+}
+
+.main-navigation_item button {
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    color: rgb(24,25,31);
+    background-color: white;
+    border: none;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+.main-navigation_item:hover #btg button {
+    border-bottom: 2px solid rgb(27,91,247);
+}
+
+#main-navigation_item a {
+    text-decoration: none;
+}
+
+#main-navigation_item button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main-navigation_item button img {
+    transition: all 0.3s ease-in-out;
+}
+
+#main-navigation_item:hover button img {
+    transform: rotateX(180deg);
+}
+
+.main-navigation_item #contact-btg {
+    background-color: rgb(27,91,247);
+    color: white;
+    cursor: pointer;
+    padding: 13px 35px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.main-navigation_item #contact-btg:hover {
+    transform: scale(1.1);
+}
+
+#content1 {
+    top: 70%;
+    left: 38%;
+    position: absolute;
+}
+
+#content2 {
+    top: 70%;
+    right: 18%;
+    position: absolute;
+}
+
+#content3 {
+    top: 70%;
+    right: 8%;
+    position: absolute;
+}
+
+.main-navigation_item:hover .content-items {
+    display: block;
+}
+
+.content-items .content-title {
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1.5px;
+    color: rgba(0, 0, 0, 0.4);
+    padding-left: 35px;
+    padding-bottom: 18px;
+}
+
+.content-items {
+    padding: 0px;
+    display: none;
+    min-width: 250px;
+    max-width: 300px;
+    padding: 18px 0px;
+    border-radius: 8px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.04),
+                0 4px 4px rgba(0, 0, 0, 0.08);
+    background-color: white;
+    cursor: default;
+}
+
+.content-items .content-item {
+    list-style: none;
+    padding: 10px 35px;
+    transition: all 0.1s ease-in-out;
+}
+
+.content-item a {
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.content-item:hover {
+    background-color: rgb(27,91,247);
+}
+
+.content-item span {
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgb(24,25,31);
+    padding-left: 30px;
+}
+
+#content3 .content-item a img {
+    width: 28px;
+}
+
+.content-item:hover span {
+    color: white;
+}
+
+/* Home section styles */
+.home-section {
+    padding: 130px 0px;
+    background-image: url(../images/bgi.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-section_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 72px;
+}
+
+#home-section_item {
+    width: 45%;
+    cursor: default;
+}
+
+#home-section_item img {
+    width: 270px;
+    margin-bottom: 30px;
+}
+
+.home-section_item h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: rgb(70, 67, 89);
+    line-height: 54px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.home-section_item h3 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: rgb(27,91,247);
+    line-height: 54px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.home-section_item a button {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    line-height: 30px;
+    color: white;
+    letter-spacing: 1px;
+    padding: 13px 84px;
+    background-color: rgb(27,91,247);
+    border: none;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.home-section_item a button:hover {
+    transform: scale(1.1);
+}

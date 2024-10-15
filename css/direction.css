@@ -1,0 +1,57 @@
+/* Direction section styles */
+.direction-section {
+    width: 100%;
+    padding: 110px 0px;
+}
+
+.section-title {
+    display: inline-block;
+    font-size: 64px;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 1px;
+    color: rgb(27,91,247);
+    cursor: default;
+}
+
+.direction-section_cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.direction-section_card {
+    width: 25%;
+    height: 140px;
+    padding: 32px;
+    margin: 20px 20px 20px 0px;
+    cursor: default;
+    background-color: rgb(244,247,255);
+    border-radius: 8px;
+}
+
+#direction-section_card1 {
+    margin-left: 20px;
+}
+
+#direction-section_card2 {
+    margin-right: 0;
+}
+
+.direction-section_card img {
+    width: 50px;
+    margin-bottom: 24px;
+}
+
+.direction-section_card p {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgb(24, 25, 31);
+    letter-spacing: 0.5px;
+    margin-bottom: 24px;
+}

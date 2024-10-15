@@ -1,0 +1,46 @@
+/* Command section styles */
+.command-section {
+    width: 100%;
+    padding-top: 110px;
+    padding-bottom: 80px;
+    background-color: rgb(229,233,242);
+}
+
+.command-section_items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#command-section_item {
+    width: 45%;
+    cursor: default;
+}
+
+.command-section_item .command-section_description {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 40px;
+    color: rgb(70, 67, 89);
+    letter-spacing: 1px;
+    padding-bottom: 45px;
+}
+
+.command-section_status span {
+    font-size: 120px;
+    font-family: sans-serif;
+    font-weight: 600;
+    line-height: 100px;
+    color: rgb(27,91,247);
+    padding-top: 45px;
+}
+
+.command-section_status p {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: rgb(70, 67, 89);
+    padding-top: 45px;
+}

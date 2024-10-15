@@ -1,0 +1,403 @@
+/* Portfolio section styles */
+/* Portfolio1 section styles */
+.portfolio1-section {
+    width: 100%;
+    padding: 100px 0px;
+    background-image: url(../images/bgi.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.delever-logo {
+    margin-bottom: 40px;
+}
+
+.delever-logo #delever-logo {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.delever-modul {
+    display: inline-flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: sans-serif;
+    line-height: 30px;
+    color: rgb(255,87,34);
+    padding: 5px 16px;
+    background-color: rgba(255, 87, 34, 0.2);
+    border-radius: 100px;
+}
+
+.delever-modul img {
+    margin-right: 10px;
+}
+
+.delever-description {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 40px;
+    color: rgb(70, 67, 89);
+    margin-bottom: 40px;
+}
+
+.what-we-did {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.delever-projects {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 0px;
+}
+
+.delever-project {
+    min-width: 125px;
+    padding: 10px 20px 10px 10px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(244,247,255);
+    border-radius: 8px;
+}
+
+.delever-project img {
+    width: 56px;
+    margin-bottom: 12px;
+}
+
+.delever-project p {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    line-height: 30px;
+    color: rgb(24, 25, 31);
+    padding-left: 10px;
+}
+
+.portfolio1-section_items {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.portfolio1-section_item {
+    cursor: default;
+    max-width: 500px;
+    width: 48%;
+}
+
+.portfolio1-section_item-image {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio1-section_item-image img {
+    border-radius: 25px;
+    max-width: 100%;
+}
+
+/* Portfolio2 section styles */
+.portfolio2-section {
+    width: 100%;
+    padding: 100px 0px;
+    background-image: url(../images/bgi.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.smsuz-logo {
+    margin-bottom: 40px;
+}
+
+.smsuz-logo #smsuz-logo {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.smsuz-modul {
+    display: inline-flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: sans-serif;
+    line-height: 30px;
+    color: rgb(68,115,229);
+    padding: 5px 16px;
+    background-color: rgba(68, 115, 229, 0.2);
+    border-radius: 100px;
+}
+
+.smsuz-modul img {
+    margin-right: 10px;
+}
+
+.smsuz-description {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 40px;
+    color: rgb(70, 67, 89);
+    margin-bottom: 40px;
+}
+
+.smsuz-projects {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 0px;
+}
+
+.smsuz-project {
+    min-width: 125px;
+    padding: 10px 20px 10px 10px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(244,247,255);
+    border-radius: 8px;
+}
+
+.smsuz-project img {
+    width: 56px;
+    margin-bottom: 12px;
+}
+
+.smsuz-project p {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    line-height: 30px;
+    color: rgb(24, 25, 31);
+    padding-left: 10px;
+}
+
+.portfolio2-section_items {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.portfolio2-section_item {
+    cursor: default;
+    max-width: 500px;
+    width: 48%;
+}
+
+.portfolio2-section_item-image {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio2-section_item-image img {
+    border-radius: 25px;
+    max-width: 100%;
+}
+
+/* Portfolio3 section styles */
+.portfolio3-section {
+    width: 100%;
+    padding: 100px 0px;
+    background-image: url(../images/bgi.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.goodzone-logo {
+    margin-bottom: 40px;
+}
+
+.goodzone-logo #goodzone-logo {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.goodzone-modul {
+    display: inline-flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: sans-serif;
+    line-height: 30px;
+    color: rgb(245,0,0);
+    padding: 5px 16px;
+    background-color: rgba(245, 0, 0, 0.2);
+    border-radius: 100px;
+}
+
+.goodzone-modul img {
+    margin-right: 10px;
+}
+
+.goodzone-description {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 40px;
+    color: rgb(70, 67, 89);
+    margin-bottom: 40px;
+}
+
+.goodzone-projects {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 0px;
+}
+
+.goodzone-project {
+    min-width: 125px;
+    padding: 10px 20px 10px 10px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(244,247,255);
+    border-radius: 8px;
+}
+
+.goodzone-project img {
+    width: 56px;
+    margin-bottom: 12px;
+}
+
+.goodzone-project p {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    line-height: 30px;
+    color: rgb(24, 25, 31);
+    padding-left: 10px;
+}
+
+.portfolio3-section_items {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.portfolio3-section_item {
+    cursor: default;
+    max-width: 500px;
+    width: 48%;
+}
+
+.portfolio3-section_item-image {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio3-section_item-image img {
+    border-radius: 25px;
+    max-width: 100%;
+}
+
+/* Portfolio4 section styles */
+.portfolio4-section {
+    width: 100%;
+    padding: 100px 0px;
+    background-image: url(../images/bgi.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.iman-logo {
+    margin-bottom: 40px;
+}
+
+.iman-logo #iman-logo {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.iman-modul {
+    display: inline-flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: sans-serif;
+    line-height: 30px;
+    color: rgb(1,202,176);
+    padding: 5px 16px;
+    background-color: rgba(1, 202, 176, 0.2);
+    border-radius: 100px;
+}
+
+.iman-modul img {
+    margin-right: 10px;
+}
+
+.iman-description {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 40px;
+    color: rgb(70, 67, 89);
+    margin-bottom: 40px;
+}
+
+.iman-projects {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 0px;
+}
+
+.iman-project {
+    min-width: 125px;
+    padding: 10px 20px 10px 10px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(244,247,255);
+    border-radius: 8px;
+}
+
+.iman-project img {
+    width: 56px;
+    margin-bottom: 12px;
+}
+
+.iman-project p {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    line-height: 30px;
+    color: rgb(24, 25, 31);
+    padding-left: 10px;
+}
+
+.portfolio4-section_items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio4-section_item {
+    cursor: default;
+    max-width: 550px;
+    width: 48%;
+}
+
+.portfolio4-section_item-image {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio4-section_item-image img {
+    border-radius: 25px;
+    max-width: 100%;
+}

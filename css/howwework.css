@@ -1,0 +1,67 @@
+/* How we work! section styles */
+.how-we-work {
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.steps-module {
+    position: relative;
+    width: 100%;
+    max-width: 1370px;
+    margin: 80px auto 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 30px;
+    background-image: url(../images/dot-line.svg);
+    background-position: center 80px;
+    background-repeat: no-repeat;
+}
+
+.steps-module .dot-line {
+    display: none;
+    width: 150%;
+    transform: rotate(90deg) scale(1.3);
+    position: absolute;
+    left: -37%;
+    z-index: -1;
+    object-fit: cover;
+    align-self: flex-start;
+}
+
+.dot-line img {
+    margin: 0;
+    max-width: 100%;
+}
+
+.step-module {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    max-width: 20%;
+    cursor: default;
+}
+
+.step-module .step-info h3 {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.step-module .step-info span {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    color: rgb(76,76,76);
+    margin: 0;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+}
